@@ -6,7 +6,6 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-style: normal;
 }
-
 .testimonial{
     border-right: 4px solid white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
@@ -93,7 +92,6 @@
         margin: 0 auto 15px;
     }
 }
-
 .vid{
     margin-top: 10%;
     margin-left: 10%;
