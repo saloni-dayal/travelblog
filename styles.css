@@ -73,28 +73,24 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: transparent;
   }
-  
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
     background-color: white;
     padding: 20px;
   }
-
   .testimonial{
     margin-top: 4%;
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom: 3%;
   }
-
   .form-st{
     margin-top: 2%;
     margin-left: 17%;
     margin-right: 17%;
     margin-bottom: 14%;
   }
-
   .form-head{
     color: rgb(110, 187, 180);
     margin-top: 4%;
