@@ -1,71 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <title>loginpage</title>
+    <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Login</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/fav.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
+
+
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+    
+          <div class="logo">
+            <!-- <h1 class="text-light"><a href="index.html">Explore</a></h1> -->
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <a href="index.html"><img src="assets/img/logo (1).jpg" alt="" class="img-fluid"></a>
+          </div>
+
+
+
+
+
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><i class="fa-solid fa-compass" style="color:rgb(110, 187, 180);"></i></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav words">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">login</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="login.html">login</a></li>
-                <li><a class="dropdown-item" href="signup.html">signup</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">about</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="places.html">locations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">contact us</a>
-            </li>
-          </ul>
+    <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="places.html">Places</a></li>
+          <!-- <li><a href="portfolio.html">Portfolio</a></li> -->
+          <!-- <li><a href="login.html">Login</a></li> -->
+          <li><a href="contact.html">Contact</a></li>
+
+          <!-- <li><a class="getstarted" href="login.html">Get Started</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+</header>
+
+
+
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="breadcrumb-hero">
+      <div class="container">
+        <div class="breadcrumb-hero">
+          <h2 style="margin-top: 5%;">Register Here</h2>
+          <!-- <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p> -->
         </div>
       </div>
-    </nav>
-      <h2 class="form-head">LOGIN</h2>
-      <form class="form-st">
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="container">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Sign up</li>
+      </ol>
+    </div>
+  </section>
+
+
+    <form name ="myform" id="myform"role="form" class="signup-form" onsubmit="return validateform()">
+      <div class="row">
+        <div class="form-group mt-3">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="form-group mt-3">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">receive emails</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/7b55b4da2f.js" crossorigin="anonymous"></script>
+      </div>
+      <div class="form-group mt-3">
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+      </div>
+    </div>
+      <!-- <div class="form-group mt-3">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+      </div>
+      <div class="form-group mt-3">
+        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+      </div>
+      <div class="my-3">
+        <div class="loading">Loading</div>
+        <div class="error-message"></div>
+        <div class="sent-message">Your message has been sent. Thank you!</div>
+      </div> -->
+      <br>
+      <br>
+
+      <button type="button" onclick="submitForm()" class="btn btn-primary">Register</button>
+    </form>
+
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
 <footer class="text-center text-white" style="background-color: transparent;">
     <!-- Grid container -->
